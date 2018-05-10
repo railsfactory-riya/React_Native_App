@@ -11,7 +11,6 @@ export default class Subscriptions extends Component {
       <View style={styles.container}>
         <View style={styles.container}>
           <Text>Subscriptions</Text>
-        </View>
         <NavBar />
       </View>
     );

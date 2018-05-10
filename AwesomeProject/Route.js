@@ -10,8 +10,8 @@ import SignUp from './components/account/signUp';
 
 
 const scenes = Actions.create(
-  <Scene key="root">
-    <Scene key="home" component={Home}/>
+  <Scene key="root" hideNavBar={true}>
+    <Scene key="home" component={Home} initial={true}/>
     <Scene key="trending" component={Trending} title="Trending"/>
     <Scene key="subscriptions" component={Subscriptions} title="Subscriptions"/>
     <Scene key="library" component={Library} title="Library"/>
